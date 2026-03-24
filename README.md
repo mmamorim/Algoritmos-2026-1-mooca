@@ -1,4 +1,4 @@
-# Programação de Soluções Computacionais 2026-1 MOOCA - NOITE
+# Algoritmos e Programação 2026-1 MOOCA - NOITE
 
 ## prof Marcelo Amorim
 
