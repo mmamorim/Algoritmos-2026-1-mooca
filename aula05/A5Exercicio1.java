@@ -12,7 +12,10 @@ public class A5Exercicio1 {
         System.out.println("Primeira Letra: " + texto.charAt(0));
         System.out.println("Última Letra: " + texto.charAt(qtdeLetras-1));
         System.out.println("Texto em Maiúsculo: " + texto.toUpperCase());
-        System.out.println("Texto em Maiúsculo: " + texto.toLowerCase());
+        System.out.println("Texto em Minúsculo: " + texto.toLowerCase());
 
+        if(texto.equals("Oi gente")) {
+
+        }
     }
 }
