@@ -47,11 +47,7 @@
 > - `arara` → palíndromo  
 > - `java` → não é palíndromo  
 
-#### Exercício 5
-> Ler 3 números inteiros e apresentá-los em ordem crescente.
-
-
-#### Exercício 6 – Validação de Senha
+#### Exercício 5 – Validação de Senha
 > 
 > Crie um programa que:
 > 
