@@ -23,5 +23,10 @@ public class JogoPalitinhos {
 
         System.out.println("Qtde escodida JOGADOR: "+qtdePJEscode);
         System.out.println("Palpite JOGADOR: "+qtdePalpiteJogador);
+
+        qtdePCEscode = (int)(Math.random() * 10) % (qtdePC+1);
+        System.out.println("Qtde escodida COMPUTADOR: "+qtdePCEscode);
+        qtdePalpiteComputador = qtdePCEscode + ((int)(Math.random() * 10) % (qtdePJ+1));
+        System.out.println("Palpite COMPUTADOR: "+qtdePalpiteComputador);
     }
 }
