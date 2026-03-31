@@ -18,4 +18,6 @@
     * Códigos Aula:  [Exercicio1.java](./aula04/Exercicio1.java) [Exercicio1v2.java](./aula04/Exercicio1v2.java) [Exercicio2.java](./aula04/Exercicio2.java) [Exercicio4.java](./aula04/Exercicio4.java) [Exercicio4v2.java](./aula04/Exercicio4v2.java) [Exercicio4v3.java](./aula04/Exercicio4v3.java) [Exercicio5.java](./aula04/Exercicio5.java)
 * [Aula05](./aula05/) (24/03) - Laços Repetição / Arrays
     * [Exercícios](./aula05/exercicios.md) 
-    * Códigos Aula:
+    * Códigos Aula: [A5Exercicio1.java](./aula05/A5Exercicio1.java) [A5Exercicio2.java](./aula05/A5Exercicio2.java) [A5Exercicio3.java](./aula05/A5Exercicio3.java) [A5Exercicio4.java](./aula05/A5Exercicio4.java) [A5Exercicio5.java](./aula05/A5Exercicio5.java)
+* [Aula06](./aula06/) (31/03) 
+    * [Exercício do Jogo do Palitinho](./aula06/ExercicioJogoPalitinhos.md) 
