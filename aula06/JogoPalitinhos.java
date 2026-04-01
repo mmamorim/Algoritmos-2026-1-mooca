@@ -8,7 +8,6 @@ public class JogoPalitinhos {
         System.out.println("| JOGO DOS PALITINHOS |");
         System.out.println("+---------------------+");
 
-
         int qtdePJ = 3;
         int qtdePC = 3;
         int qtdePJEscode = 0;
@@ -16,17 +15,32 @@ public class JogoPalitinhos {
         int qtdePalpiteJogador = 0;
         int qtdePalpiteComputador = 0;
 
+        System.out.println("Qtde TOTAL PALITOS JOGADOR: " + qtdePJ);
+        System.out.println("Qtde TOTAL PALITOS COMPUTADOR: " + qtdePC);
+
         System.out.println("Quantos palitos você vai separar?");
         qtdePJEscode = leitor.nextInt();
         System.out.println("Qual seu palpite?");
         qtdePalpiteJogador = leitor.nextInt();
 
-        System.out.println("Qtde escodida JOGADOR: "+qtdePJEscode);
-        System.out.println("Palpite JOGADOR: "+qtdePalpiteJogador);
+        System.out.println("Qtde escodida JOGADOR: " + qtdePJEscode);
+        System.out.println("Palpite JOGADOR: " + qtdePalpiteJogador);
 
-        qtdePCEscode = (int)(Math.random() * 10) % (qtdePC+1);
-        System.out.println("Qtde escodida COMPUTADOR: "+qtdePCEscode);
-        qtdePalpiteComputador = qtdePCEscode + ((int)(Math.random() * 10) % (qtdePJ+1));
-        System.out.println("Palpite COMPUTADOR: "+qtdePalpiteComputador);
+        qtdePCEscode = (int) (Math.random() * 10) % (qtdePC + 1);
+        System.out.println("Qtde escodida COMPUTADOR: " + qtdePCEscode);
+        qtdePalpiteComputador = qtdePCEscode + ((int) (Math.random() * 10) % (qtdePJ + 1));
+        System.out.println("Palpite COMPUTADOR: " + qtdePalpiteComputador);
+
+        if (qtdePalpiteJogador == qtdePJEscode + qtdePCEscode) {
+            System.out.println("Você acertou!!!!");
+            qtdePJ--;
+        } else {
+            if (qtdePalpiteComputador == qtdePJEscode + qtdePCEscode) {
+                System.out.println("COMPUTADOR acertou!!!!");
+                qtdePC--;
+            } else {
+                System.out.println("NINGUÉM acertou!!!!");
+            }
+        }
     }
 }
