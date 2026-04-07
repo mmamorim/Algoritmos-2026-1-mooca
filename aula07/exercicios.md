@@ -70,7 +70,3 @@ Tratar múltiplos espaços consecutivos corretamente.
 
 ---
 
-## Desafio Extra
-
-- Resolver sem utilizar métodos prontos como `split()`  
-- Tentar implementar usando apenas `charAt()` e laços  
