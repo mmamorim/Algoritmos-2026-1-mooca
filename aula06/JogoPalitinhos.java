@@ -52,7 +52,7 @@ public class JogoPalitinhos {
 
         System.out.println("GAME OVER");
         if(qtdePJ == 0) {
-            System.out.println("JOGADOR VENCEU!!!!");
+            System.out.println("❤️❤️ JOGADOR VENCEU!!!! ❤️❤️");
         } else {
             System.out.println("COMPUTADOR VENCEU!!!!");
         }
