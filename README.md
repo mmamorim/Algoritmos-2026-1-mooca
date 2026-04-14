@@ -24,4 +24,4 @@
 * [Aula07](./aula07/exercicios.md) (07/04) - Mais Exercícios Emocionantes
 * [Aula08](./aula08/) (14/04) - Arrays e Modularização
     * [Exercícios](./aula08/exercicios.md) 
-    * Códigos Aula: 
+    * Códigos Aula:  
