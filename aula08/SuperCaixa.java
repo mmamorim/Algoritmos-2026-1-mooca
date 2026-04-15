@@ -8,14 +8,20 @@ public class SuperCaixa {
     public static void main(String[] args) {
 
         imprimeNomeAppVersao();
-
+        String relatorio = "";
         int codigo = 0;
+        double total = 0;
+
         while (codigo >= 0) {
+            Screen.clear();
+            System.out.println(relatorio);
+            System.out.println("TOTAL DA COMPRA: R$ "+total);
             imprimeListaProdutos();
             codigo = lerCodigo();
             if (codigo >= 0) {
                 int qtde = lerQtde();
-                imprimeItemLinha(codigo, qtde);
+                total = total + precos[codigo]*qtde;
+                relatorio = relatorio + gerarItemLinha(codigo, qtde);
             }
         }
 
@@ -35,10 +41,11 @@ public class SuperCaixa {
         }
     }
 
-    public static void imprimeItemLinha(int codigo, int qtde) {
+    public static String gerarItemLinha(int codigo, int qtde) {
         String linha = "item: (" + codigo + ") - " + produtos[codigo];
-        linha = linha + " - " + qtde + " unidades";
-        System.out.println(linha);
+        linha = linha + " - " + qtde + " unidades \n";
+        //System.out.println(linha);
+        return linha;
     }
 
     public static int lerCodigo() {
