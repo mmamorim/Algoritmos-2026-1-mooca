@@ -6,13 +6,18 @@ public class SuperCaixa {
     static double precos[] = { 7.5, 30.75, 20.0, 5.5, 8.0, 15.0 };
 
     public static void main(String[] args) {
-        
-        imprimeNomeAppVersao();
-        imprimeListaProdutos();
 
-        int codigo = lerCodigo();
-        int qtde = lerQtde();
-        imprimeItemLinha(codigo,qtde);
+        imprimeNomeAppVersao();
+
+        int codigo = 0;
+        while (codigo >= 0) {
+            imprimeListaProdutos();
+            codigo = lerCodigo();
+            if (codigo >= 0) {
+                int qtde = lerQtde();
+                imprimeItemLinha(codigo, qtde);
+            }
+        }
 
     }
 
@@ -38,7 +43,7 @@ public class SuperCaixa {
 
     public static int lerCodigo() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Digite código do produto: ");
+        System.out.println("Digite código do produto (-1 p/ sair): ");
         int codigo = sc.nextInt();
         return codigo;
     }
