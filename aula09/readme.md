@@ -4,3 +4,6 @@
 
 ## REVISÃO PARA A1
 
+Exercicios do prof. Duduchi
+
+[TREINAR ExercciosVetores_20260427210721.pdf](./TREINAR%20ExercciosVetores_20260427210721.pdf)
