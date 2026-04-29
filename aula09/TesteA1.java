@@ -34,13 +34,17 @@ public class TesteA1 {
          * Novas variáveis podem ser criadas, se necessário. No
          * final, b e m devem ser modificados.
          */
-        for(i=0; i<n;i++) {
-            b[i] = a[i];
+        //for(i=n-1; i>=0; i--) {
+        //    b[n-i-1] = a[i];
+        //}
+        int maior = a[0];
+        for(i=1; i<n ; i++) {
+            if(a[i] > maior) {
+                maior = a[i];
+            }
         }
-
-
-
-
+        b[0] = maior;
+        m = 1;
         /* O código abaixo mostra o resultado. Não deve ser alterado */
         String saida = "Resposta:\n";
         for (i = 0; i < m; i++)
