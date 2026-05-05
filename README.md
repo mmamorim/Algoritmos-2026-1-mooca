@@ -5,7 +5,7 @@
 ### link deste repositório https://github.com/mmamorim/Algoritmos-2026-1-mooca
 
 ### FORMULÁRIO DEFINIÇÃO GRUPOS A3 
-[https://docs.google.com/forms/d/e/1FAIpQLSfe-X4GUDH7d1ahUybMEWSju8e_LjKfos8ZBJuBMg99oy9PnA/viewform?usp=publish-editor](Formulário)
+[Formulário](https://docs.google.com/forms/d/e/1FAIpQLSfe-X4GUDH7d1ahUybMEWSju8e_LjKfos8ZBJuBMg99oy9PnA/viewform?usp=publish-editor)
 
 ---
 
