@@ -2,22 +2,18 @@ public class Aula10Teste {
 
     public static void main(String[] args) {
 
-        //Produto[] produtos = {
-        //        new Produto(1, "Coca-Cola", 5.5, 10),
-        //        new Produto(2, "Chocolate", 3.0, 20),
-        //        new Produto(3, "Outro", 5.5, 10),
-        //        new Produto(4, "Algo", 3.0, 20)
-        //};
+        Produto p1, p2, p3;
+        p1 = new Produto();
+        p1.id = 10;
+        p1.nome = "Chocolate";
 
-        // Salvar
-        //CsvUtil.salvar(produtos, "produtos.csv");
+        p2 = new Produto();
+        p2.id = 15;
+        p2.nome = "Leite";
 
-        // Ler
-        Produto[] produtosLidos = CsvUtil.ler("produtos.csv", Produto.class);
+        System.out.println(p1.id+" "+p1.nome);
+        System.out.println(p2.id+" "+p2.nome);
 
-        // Teste
-        for (Produto p : produtosLidos) {
-            System.out.println(p.nome + " - " + p.preco);
-        }
+
     }
 }
