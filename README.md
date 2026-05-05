@@ -4,6 +4,9 @@
 
 ### link deste repositório https://github.com/mmamorim/Algoritmos-2026-1-mooca
 
+### FORMULÁRIO DEFINIÇÃO GRUPOS A3 
+[https://docs.google.com/forms/d/e/1FAIpQLSfe-X4GUDH7d1ahUybMEWSju8e_LjKfos8ZBJuBMg99oy9PnA/viewform?usp=publish-editor](Formulário)
+
 * [Aula01](./aula01/) (10/02) - Apresentação da UC / Introdução Java
     * [Exercícios](./aula01/exercicios.md)  
 * **(17/02) - CARNAVAL**
