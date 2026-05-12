@@ -3,13 +3,19 @@ public class Pessoa {
     public int idade;
     public String email;    
 
+    public Pessoa(String nome, int idade, String email) {
+        this.nome = nome;
+        this.idade = idade;
+        this.email = email;
+    }
+
     public void fazAniversario() {
         idade++;
     }
 
     public void imprime() {
-        System.out.println("Nome: "+nome);
-        System.out.println("Idade: "+idade);
+        System.out.print("Nome: "+nome+" ");
+        System.out.print("Idade: "+idade+" ");
         System.out.println("Email: "+email);
     }
 }
