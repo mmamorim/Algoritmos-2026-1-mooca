@@ -7,6 +7,9 @@
 ### FORMULÁRIO DEFINIÇÃO GRUPOS A3 
 [Formulário](https://docs.google.com/forms/d/e/1FAIpQLSfe-X4GUDH7d1ahUybMEWSju8e_LjKfos8ZBJuBMg99oy9PnA/viewform?usp=publish-editor)
 
+### PROJETO A3 
+[Enunciado Projeto A3](./projetoA3.md)
+
 ---
 
 * [Aula01](./aula01/) (10/02) - Apresentação da UC / Introdução Java
@@ -33,3 +36,4 @@
 * **FERIADO - TIRADENTES** (21/04)
 * [Aula09](./aula09/) (28/04) - REVISÃO A1
 * [Aula10](./aula10/) (05/05) - Introdução simples de Classes em Java
+* [Aula11](./aula11/) (12/05) - Utilizando a Classe CsvUtil
