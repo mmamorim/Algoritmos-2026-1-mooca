@@ -3,6 +3,10 @@ public class Pessoa {
     public int idade;
     public String email;    
 
+    public Pessoa() {
+
+    }
+    
     public Pessoa(String nome, int idade, String email) {
         this.nome = nome;
         this.idade = idade;
