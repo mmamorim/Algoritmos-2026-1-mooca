@@ -5,12 +5,15 @@ public class TesteAula12 {
 
         ListaPessoas lista = new ListaPessoas();
 
-        //Pessoa p1 = new Pessoa(123, "Ana", 20, "ana@ana.com");
         //Pessoa p2 = new Pessoa(333, "Bia", 20, "bia@bia.com");
         //p1.imprime();
         //p2.imprime();
 
+        //lista.listar();
+        //lista.excluir(54);
         lista.listar();
 
+        //Pessoa p1 = new Pessoa(54, "Fulano", 23, "fulano@fulano.com");
+        //lista.adicionar(p1);
     }
 }
