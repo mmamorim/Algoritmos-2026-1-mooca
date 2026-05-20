@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Pessoa {
     public int codigo;
     public String nome;
@@ -21,4 +23,21 @@ public class Pessoa {
         System.out.print("Idade: "+idade+" ");
         System.out.println("Email: "+email);
     }
+
+    public void lerCodigo() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite código:");
+        codigo = sc.nextInt();
+    }
+    
+    public void lerDados() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite nome:");
+        nome = sc.nextLine();
+        System.out.println("Digite idade:");
+        idade = Integer.parseInt(sc.nextLine());
+        System.out.println("Digite email:");
+        email = sc.nextLine();
+    }
+
 }
