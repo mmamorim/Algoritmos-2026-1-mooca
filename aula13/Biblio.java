@@ -33,6 +33,10 @@ public class Biblio {
             CrudAluno alunos = new CrudAluno();
             alunos.mostraMenu();
         }
+        if (op == 2) {
+            CrudLivro livros = new CrudLivro();
+            livros.mostraMenu();
+        }
         if (op == 5) {
             System.out.println("Até mais!");
             System.exit(0);
