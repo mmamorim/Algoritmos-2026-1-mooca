@@ -10,10 +10,15 @@ public class CsvUtil {
     // SALVAR ARRAY DE OBJETOS
     // =========================
     public static void salvar(Object[] objetos, String nomeArquivo) {
-        if (objetos == null || objetos.length == 0)
+        if (objetos == null)
             return;
 
         try (FileWriter writer = new FileWriter(nomeArquivo)) {
+
+            if(objetos.length == 0) {
+                writer.append(" ");
+                return;
+            }
 
             Class<?> clazz = objetos[0].getClass();
             Field[] fields = clazz.getDeclaredFields();
