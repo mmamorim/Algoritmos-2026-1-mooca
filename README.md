@@ -12,6 +12,22 @@
 
 ---
 
+# ORIENTAÇÕES - ENTREGA PROJETO A3: 
+
+[FORMULÁRIO DE ENTREGA](https://forms.gle/Yrkbbiv2iJpubhoU6)
+
+1. Preencher o formulário de entrega com:
+    * Informações dos integrantes do grupo: **RA** e **NOME COMPLETO** (importante)
+    * Informar o link do github do repositório com a implementação do projeto
+2. O repositório do github deverá conter os códigos em Java e arquivo ```readme.md```.       
+    * IMPORTANTE: **Informar todos os integrantes do grupo (RA e NOME COMPLETO) no `readme.md`**.  
+3. O Projeto poderá ser realizado em grupo de até 5 integrantes.
+4. A entrega deverá ser feita por apenas um integrante do grupo.
+
+> QUE A FORÇA DO JAVA ESTEJA COM TODOS!
+
+---
+
 * [Aula01](./aula01/) (10/02) - Apresentação da UC / Introdução Java
     * [Exercícios](./aula01/exercicios.md)  
 * **(17/02) - CARNAVAL**
